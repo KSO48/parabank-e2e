@@ -1,5 +1,7 @@
 # ParaBank E2E (портфолио)
 
+![Tests](https://github.com/KSO48/parabank-e2e/actions/workflows/tests.yml/badge.svg)
+
 Playwright + TypeScript тесты для [ParaBank](https://parabank.parasoft.com) —
 публичного демо-банка от Parasoft, официально созданного для практики
 автоматизированного тестирования. Написано с нуля специально для портфолио —
