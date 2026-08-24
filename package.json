@@ -1,0 +1,20 @@
+{
+  "name": "parabank-e2e",
+  "version": "1.0.0",
+  "description": "Playwright e2e tests for ParaBank (parabank.parasoft.com) — a public sandbox built for automation practice",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": ["playwright", "e2e", "typescript", "test-automation", "parabank"],
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.0"
+  }
+}
